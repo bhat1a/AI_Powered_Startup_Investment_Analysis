@@ -1,0 +1,20 @@
+# Core Libraries
+pandas
+numpy
+joblib
+
+# Machine Learning
+scikit-learn
+
+# Visualization
+matplotlib
+seaborn
+
+# Dashboard / Web App
+streamlit
+
+# Data Fetching (Wikidata Integration)
+SPARQLWrapper
+
+# Date and Time Utilities
+python-dateutil
