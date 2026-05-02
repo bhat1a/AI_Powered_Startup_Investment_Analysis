@@ -1,0 +1,76 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="file:///exports/export/highcharts.js"></script>
+<script src="file:///exports/export/accessibility.js"></script>
+<script src="file:///exports/export/treemap.js"></script>
+<script src="file:///exports/export/export-data.js"></script>
+<script src="file:///exports/export/offline-exporting.js"></script>
+<script src="file:///exports/export/solid-gauge.js"></script>
+<script src="file:///exports/export/heatmap.js"></script>
+<script src="file:///exports/export/sankey.js"></script>
+<script src="file:///exports/export/networkgraph.js"></script>
+<script src="file:///exports/export/venn.js"></script>
+<script src="file:///exports/export/funnel.js"></script>
+<script src="file:///exports/export/gantt.js"></script>
+<script src="file:///exports/export/wordcloud.js"></script>
+<script src="file:///exports/export/streamgraph.js"></script>
+<script src="file:///exports/export/timeline.js"></script>
+<script src="file:///exports/export/sunburst.js"></script>
+<script src="file:///exports/export/annotations.js"></script>
+<script src="file:///exports/export/data.js"></script>
+<script src="file:///exports/export/drilldown.js"></script>
+<script src="file:///exports/export/highcharts-more.js"></script>
+<script src="file:///exports/export/highcharts-3d.js"></script>
+<script src="file:///exports/export/stock.js"></script>
+<script src="file:///exports/export/map.js"></script>
+<script src="file:///exports/export/datagrid.js"></script>
+<script src="file:///exports/export/dashboards.js"></script>
+<script src="file:///exports/export/layout.js"></script>
+<script src="file:///exports/export/exporting.js"></script>
+<script src="file:///exports/export/parallel-coordinates.js"></script>
+<script src="file:///exports/export/annotations-advanced.js"></script>
+<script src="file:///exports/export/draggable-points.js"></script>
+<script src="file:///exports/export/static-scale.js"></script>
+<script src="file:///exports/export/broken-axis.js"></script>
+<script src="file:///exports/export/tilemap.js"></script>
+<script src="file:///exports/export/treegraph.js"></script>
+<script src="file:///exports/export/item-series.js"></script>
+<script src="file:///exports/export/histogram-bellcurve.js"></script>
+<script src="file:///exports/export/bullet.js"></script>
+<script src="file:///exports/export/funnel3d.js"></script>
+<script src="file:///exports/export/pyramid3d.js"></script>
+<script src="file:///exports/export/pareto.js"></script>
+<script src="file:///exports/export/pattern-fill.js"></script>
+<script src="file:///exports/export/price-indicator.js"></script>
+<script src="file:///exports/export/arc-diagram.js"></script>
+<script src="file:///exports/export/dependency-wheel.js"></script>
+<script src="file:///exports/export/series-label.js"></script>
+<script src="file:///exports/export/sonification.js"></script>
+<script src="file:///exports/export/variable-pie.js"></script>
+<script src="file:///exports/export/variwide.js"></script>
+<script src="file:///exports/export/vector.js"></script>
+<script src="file:///exports/export/windbarb.js"></script>
+<script src="file:///exports/export/xrange.js"></script>
+<script src="file:///exports/export/no-data-to-display.js"></script>
+<script src="file:///exports/export/drag-panes.js"></script>
+<script src="file:///exports/export/dumbbell.js"></script>
+<script src="file:///exports/export/lollipop.js"></script>
+<script src="file:///exports/export/cylinder.js"></script>
+<script src="file:///exports/export/organization.js"></script>
+<script src="file:///exports/export/dotplot.js"></script>
+<script src="file:///exports/export/marker-clusters.js"></script>
+<script src="file:///exports/export/hollowcandlestick.js"></script>
+<script src="file:///exports/export/heikinashi.js"></script>
+<script src="file:///exports/export/full-screen.js"></script>
+    </head>
+    <body>
+        <div id="container" style="width: 100%; height: 100%;"></div>
+        <script>
+            Highcharts.chart('container', {"chart": {"type": "boxplot", "zoomType": "xy", "zooming": {"mouseWheel": false}}, "title": 0, "credits": {"enabled": false}, "legend": {"enabled": true}, "xAxis": {"categories": ["Chairs", "Phones", "Storage", "Machines", "Accessories", "Binders", "Copiers", "Tables", "Bookcases", "Appliances", "Furnishings", "Paper", "Supplies", "Art", "Envelopes", "Labels", "Fasteners"]}, "yAxis": {"title": {"text": "Sales"}}, "plotOptions": {"series": {"turboThreshold": 22}, "colorboxplot": {"fillUpperColor": "#e2e2e2", "fillLowerColor": "#b8b7b7", "upperLineColor": "#939393", "lowerLineColor": "#939393", "stemColor": "#8d8d8d", "whiskerColor": "#505050", "upperLineWidth": 1, "lowerLineWidth": 1, "lineWidth": 0, "stemWidth": 1, "medianWidth": 0, "whiskerWidth": 1}}, "tooltip": {"headerFormat": "<b>Sub Category</b>: {point.key}<br>"}, "custom": {"outlier_boxplot": {"total_outliers": 5, "total_inliers": 17, "input_col": "Sales", "outliers_by_groupby": {"Tables": 1, "Chairs": 1, "Binders": 1, "Supplies": 1, "Labels": 1}, "groupby_col": "Sub Category", "category_col": "Region"}}, "series": [{"boostThreshold": 1000, "name": "Others", "data": [[41581.49, 75217.1, 90745.66, 97640.84, 131276.45], [23445.91, 68878.57, 85543.82, 99167.01, 144599.67], [2269.83, 43389.6, 58231.48, 70802.78, 111922.55], [10913.96, 38532.44, 48167.54, 56944.76, 84563.24], [7135.29, 32286.25, 39494.72, 49053.56, 74204.52], [39150.21, 49381.08, 54729.56, 56201.66, 66432.53], [-251.15, 30269.62, 43504.41, 50616.8, 81137.57], [16689.28, 39151.18, 41535.58, 54125.78, 76587.68], [-4830.1, 20842.72, 30080.65, 37957.93, 63630.74], [9583.1, 22567.86, 26909.18, 31224.37, 44209.14], [-1998.56, 16793.61, 23189.03, 29321.72, 48113.88], [8948.6, 16656.67, 18832.25, 21795.38, 29503.45], [4047.85, 9180.26, 10113.74, 12601.87, 17734.29], [1843.76, 5487.91, 6625.55, 7917.34, 11561.48], [3150.72, 3924.96, 4246.99, 4441.12, 5215.36], [1234.43, 2426.9, 2527.2, 3221.88, 4414.35], [504.99, 709.35, 798.87, 845.59, 1049.95]], "color": "rgb(50, 180, 50)", "tooltip": {"pointFormat": ""}}, {"boostThreshold": 1000, "name": "Outliers", "color": "rgb(180, 50, 50)", "type": "scatter", "keys": ["x", "y", "Modified Z-Score value of Sales", "dim_name3"], "data": [[7, 84754.56, 12.18, "West"], [0, 45176.45, -3.71, "South"], [5, 37030.34, -6.95, "South"], [12, 18127.12, 4.42, "West"], [15, 5078.73, 13.75, "West"]], "dataLabels": {"enabled": true, "format": "{point.dim_name3}"}, "jitter": {"x": 0.15}, "marker": {"fillColor": "red", "lineWidth": 1, "lineColor": "#A23", "radius": 2}, "tooltip": {"pointFormat": "<b>Sales</b>: $ {point.y:,0.f} <br/><b>Region</b>: {point.dim_name3}<br/>"}}]});
+        </script>
+    </body>
+    </html>
+    

@@ -1,0 +1,101 @@
+startup_name,industry,sub_industry,city,year_founded,company_age,funding_stage,total_funding_usd_mn,revenue_usd_mn,growth_rate_pct,employees,burn_rate_usd_mn_monthly,profit_loss_usd_mn,market_size_usd_bn,market_growth_rate_pct,website_traffic_mn_monthly,app_downloads_mn,social_media_followers_mn,competitor_count,customer_retention_pct,nps_score
+BrightPay,EV,EV Fleet,Pune,2019,6,Series B,14.4,7.7,14.5,336,13.0,28.1,144.5,10.7,48.5,83.26,4.33,23,74.0,77
+NovaMed,Foodtech,Food Delivery,Hyderabad,2012,13,Seed,2.9,1.1,117.1,447,3.6,-38.2,127.5,23.4,49.16,46.73,17.21,9,49.4,58
+SwiftCart,Edtech,Corporate Training,Bengaluru,2013,12,Series C,46.1,29.8,35.0,236,10.3,29.3,168.3,16.1,19.61,18.31,15.13,8,51.4,23
+LearnUp,Foodtech,Food Delivery,Gurugram,2021,4,Series A,4.0,6.8,89.5,86,5.0,24.2,109.0,43.6,42.24,74.76,10.84,26,59.6,79
+GreenWheel,Ecommerce,Electronics,Pune,2012,13,Seed,51.8,46.2,40.9,185,0.4,-24.2,145.2,37.7,30.34,92.64,13.06,30,87.5,27
+CloudServe,Ecommerce,B2B Commerce,Bengaluru,2014,11,Growth,8.3,9.5,50.9,463,14.6,60.4,147.1,18.3,12.88,4.14,14.24,28,41.4,32
+QuickBite,Healthtech,HealthOS,Noida,2015,10,Seed,470.2,239.3,75.7,437,8.2,-23.6,189.1,31.0,34.77,88.06,12.52,8,65.1,63
+SafeVault,Ecommerce,Electronics,Chennai,2021,4,Series B,36.8,61.1,38.5,103,9.8,-49.9,77.0,20.7,8.32,53.46,9.75,35,46.6,63
+SkillBridge,Logistics,Cold Chain,Delhi,2015,10,Seed,74.4,129.7,36.2,227,7.6,-10.9,64.1,11.3,30.52,50.32,1.12,39,59.0,20
+MediSync,Healthtech,Diagnostics,Mumbai,2021,4,Growth,215.2,141.3,89.6,519,5.6,32.2,130.4,28.8,4.61,83.55,6.48,8,78.3,22
+FreshRoute,Ecommerce,Electronics,Delhi,2014,11,Series C,158.4,130.4,18.8,448,14.1,1.7,108.4,39.3,33.82,73.55,4.26,33,88.3,54
+DataFlow,EV,EV Fleet,Noida,2020,5,Series A,7.0,12.6,116.1,275,8.5,64.7,45.9,19.8,35.05,84.68,17.14,35,75.3,30
+PayEasy,Fintech,WealthTech,Hyderabad,2014,11,Series C,107.8,189.8,39.8,207,4.7,13.1,95.2,44.8,8.88,1.91,9.93,22,60.2,27
+EduReach,EV,Battery Tech,Bengaluru,2014,11,Seed,11.2,13.3,117.6,502,7.4,67.8,92.5,22.3,32.29,66.93,17.3,21,71.5,68
+HealthFirst,Logistics,Last Mile,Hyderabad,2016,9,Series C,80.9,139.9,45.0,406,8.4,24.4,196.3,12.6,15.35,19.17,5.44,5,49.3,44
+ShopSmart,Edtech,Upskilling,Chennai,2014,11,Series A,18.9,23.1,118.9,285,2.3,17.4,176.7,35.9,34.88,70.28,7.25,31,56.3,45
+ChargeUp,Healthtech,Diagnostics,Bengaluru,2021,4,Growth,28.0,45.6,11.1,215,8.8,7.0,137.7,21.5,7.84,98.19,16.79,24,53.8,61
+WorkFlow,Foodtech,Restaurant Tech,Chennai,2016,9,Series B,355.1,221.5,77.8,278,1.5,-43.3,111.0,28.9,31.91,72.64,19.52,32,42.3,75
+TasteHub,EV,Battery Tech,Hyderabad,2018,7,Series A,22.7,9.6,56.0,137,10.4,-42.4,183.9,25.5,12.07,9.48,3.74,3,92.5,58
+SecurePay,Logistics,Cold Chain,Pune,2018,7,Growth,60.6,32.6,21.5,135,5.3,-38.1,27.9,20.9,48.98,17.62,0.44,28,67.0,58
+TalentUp,Ecommerce,D2C Fashion,Chennai,2018,7,Growth,37.0,11.9,112.5,413,7.6,20.1,140.0,31.6,47.2,94.43,17.36,34,91.7,43
+CareConnect,Ecommerce,B2B Commerce,Delhi,2012,13,Series C,706.0,1208.8,51.2,34,14.4,67.7,47.2,12.4,5.13,1.92,1.98,37,58.5,45
+DeliverFast,Logistics,Last Mile,Mumbai,2021,4,Series A,12.4,12.9,85.6,107,5.4,71.8,17.4,24.6,48.38,54.84,8.53,26,84.4,68
+InsightAI,Healthtech,Mental Health,Hyderabad,2012,13,Series A,24.5,41.6,104.1,782,6.5,47.6,153.4,13.6,45.14,50.57,16.55,24,56.4,38
+MoneyMap,Fintech,WealthTech,Hyderabad,2020,5,Growth,33.3,57.8,83.8,654,7.3,14.1,25.8,13.2,30.16,55.41,4.33,25,83.0,58
+ClassRoom,SaaS,CRM,Mumbai,2018,7,Series A,80.6,109.5,116.5,1306,10.4,58.8,174.7,39.3,21.36,22.34,7.99,29,78.8,24
+WellnessAI,SaaS,CRM,Chennai,2019,6,Series B,9.6,14.6,114.1,59,14.8,47.9,81.5,12.9,38.88,55.88,8.54,28,58.2,22
+StyleStore,SaaS,CRM,Mumbai,2021,4,Series C,151.8,232.9,91.4,527,10.3,-19.1,86.0,26.7,4.24,52.88,8.78,34,70.6,66
+VoltRide,SaaS,Analytics,Chennai,2016,9,Growth,150.2,62.1,26.6,84,3.4,-11.7,199.2,34.4,19.27,73.74,18.31,12,92.3,27
+TeamBase,Foodtech,AgriTech,Noida,2016,9,Series C,19.9,19.8,47.6,134,8.8,-39.9,195.1,44.5,34.94,53.66,6.26,22,73.2,67
+FoodFirst,SaaS,CRM,Chennai,2017,8,Series B,11.2,19.0,105.0,1527,0.9,-46.6,81.5,38.4,49.37,15.13,11.92,27,93.3,46
+TrustPay,Fintech,Payments,Bengaluru,2020,5,Series A,8.1,3.1,104.8,134,12.2,80.0,199.4,29.4,38.47,94.48,17.01,19,53.3,28
+GrowthPath,Foodtech,Food Delivery,Delhi,2015,10,Growth,128.2,157.3,48.1,79,1.9,37.3,108.9,37.0,26.06,85.23,11.08,7,44.9,78
+DocConnect,Fintech,Payments,Noida,2016,9,Growth,216.9,358.9,77.1,413,14.7,29.1,131.0,29.4,4.64,72.67,10.99,35,83.1,79
+TradeLink,Foodtech,Restaurant Tech,Mumbai,2012,13,Series B,53.6,36.8,59.4,542,14.7,14.0,72.5,32.2,12.08,7.68,2.66,18,48.4,73
+MetricsPro,Logistics,Cross Border,Hyderabad,2019,6,Series C,180.6,193.8,117.0,193,9.1,-20.9,166.1,22.1,17.45,3.28,11.02,7,65.3,45
+CashFlow,Foodtech,Cloud Kitchen,Bengaluru,2020,5,Series A,51.9,69.1,65.3,99,2.5,-1.0,10.5,40.4,4.32,59.77,19.73,24,53.0,47
+StudyPal,EV,EV Charging,Noida,2021,4,Series A,109.1,116.5,67.6,334,1.8,8.2,111.2,18.5,13.54,37.79,0.5,19,51.6,45
+ClinicAI,Foodtech,AgriTech,Bengaluru,2015,10,Seed,4.0,5.1,61.7,165,8.8,45.8,116.0,30.5,28.27,37.94,6.82,28,73.4,78
+CartKing,Logistics,Cold Chain,Pune,2020,5,Growth,35.4,18.7,35.5,192,2.6,-25.7,64.2,16.1,44.85,8.12,10.54,39,94.0,50
+PowerGrid,Foodtech,Cloud Kitchen,Hyderabad,2015,10,Series C,470.7,720.8,88.5,227,8.1,12.0,169.3,17.2,48.4,71.12,4.07,22,53.3,66
+ProjectHub,Fintech,BNPL,Chennai,2015,10,Growth,157.3,134.3,58.9,45,8.3,21.4,48.3,34.0,4.48,13.97,0.15,11,72.8,43
+MealDash,Foodtech,Restaurant Tech,Delhi,2016,9,Seed,85.2,145.5,28.3,133,1.2,46.3,119.1,39.5,7.07,79.55,4.11,32,85.4,56
+SafeNet,SaaS,Marketing Tech,Delhi,2015,10,Series A,146.1,193.5,58.6,44,10.8,67.0,128.6,28.9,21.99,57.79,7.17,4,69.9,59
+SkillSet,Logistics,Cold Chain,Gurugram,2017,8,Series B,66.6,53.4,23.6,432,12.0,30.6,111.4,41.3,39.45,15.25,6.3,39,82.8,52
+MedTrack,Foodtech,AgriTech,Chennai,2021,4,Series A,391.7,178.0,68.1,235,5.8,9.4,124.8,27.6,27.04,48.69,8.24,4,40.7,70
+ShipFast,Healthtech,Mental Health,Hyderabad,2016,9,Series A,13.3,12.4,40.2,123,9.3,68.5,36.4,13.5,12.88,72.64,11.9,38,90.5,24
+AnalyticsX,Logistics,Last Mile,Noida,2012,13,Series A,522.4,489.1,90.5,939,14.0,70.3,95.7,14.0,49.24,83.91,2.58,3,87.8,74
+ZeroPay,Healthtech,Mental Health,Gurugram,2020,5,Growth,21.0,31.1,75.6,473,1.9,3.9,174.1,42.3,23.34,48.14,18.38,26,71.8,71
+EduFirst,Foodtech,Food Delivery,Noida,2012,13,Seed,23.1,14.6,31.8,605,7.8,76.8,97.2,29.5,43.05,53.55,3.77,9,72.7,32
+HealthHub,Foodtech,Restaurant Tech,Delhi,2019,6,Series B,47.6,27.9,12.1,285,7.2,23.4,22.5,37.1,22.72,52.49,8.87,32,70.8,23
+BrandCart,Fintech,WealthTech,Pune,2021,4,Series B,148.4,135.5,10.8,64,2.5,43.1,135.2,10.9,11.18,23.18,13.47,10,45.7,66
+ChargeFast,SaaS,Marketing Tech,Delhi,2019,6,Seed,40.9,56.6,103.8,168,12.5,1.6,136.9,17.2,14.73,89.64,0.36,9,80.5,40
+OpsFlow,Healthtech,Mental Health,Pune,2015,10,Series B,281.7,469.3,78.0,637,5.2,57.3,79.0,11.2,41.55,34.58,15.5,11,64.0,63
+SpiceRoute,Healthtech,Mental Health,Mumbai,2019,6,Series C,66.7,118.6,60.8,92,2.9,13.0,107.4,36.0,34.97,40.31,4.44,24,85.9,23
+VaultPay,Edtech,Test Prep,Pune,2013,12,Growth,7.7,8.7,81.0,424,12.5,-23.2,12.1,14.8,45.01,87.4,11.99,14,74.8,72
+LearnAI,EV,EV Charging,Pune,2021,4,Seed,294.3,274.6,47.6,149,14.4,-26.0,27.2,37.0,3.51,83.72,8.8,38,79.5,58
+CareAI,Logistics,Cold Chain,Chennai,2018,7,Series A,98.7,138.1,32.1,294,0.7,-15.9,123.1,11.8,24.87,59.72,6.75,28,66.1,28
+LogiLink,Fintech,WealthTech,Bengaluru,2020,5,Seed,137.2,135.8,16.5,1213,1.4,-49.7,193.9,10.2,5.24,31.53,16.17,19,92.3,74
+DataSync,Fintech,Lending,Hyderabad,2019,6,Series B,255.0,353.5,79.4,487,14.7,67.4,132.9,34.3,2.67,67.02,0.98,18,90.9,42
+PayNow,Edtech,K12,Chennai,2018,7,Series A,93.3,163.9,113.8,197,7.2,62.1,170.5,21.2,41.46,3.8,11.97,37,70.8,64
+ClassAI,Edtech,Upskilling,Pune,2019,6,Series B,4.5,5.2,98.0,67,8.2,36.0,150.2,28.2,21.4,87.68,8.41,37,87.9,49
+MediCare,Healthtech,HealthOS,Pune,2013,12,Growth,29.3,29.9,78.3,1001,13.1,77.9,156.0,24.6,21.13,73.78,4.85,5,65.7,75
+TrendShop,Foodtech,Cloud Kitchen,Hyderabad,2016,9,Series A,52.4,45.9,84.1,309,3.4,73.5,159.4,13.1,20.94,87.92,18.9,13,89.7,53
+EVolt,Fintech,Lending,Hyderabad,2019,6,Series C,66.7,80.8,65.4,400,3.6,-27.1,51.9,16.5,39.0,35.08,1.25,25,88.6,54
+TeamSync,Ecommerce,B2B Commerce,Bengaluru,2021,4,Growth,6.1,10.9,108.5,5810,7.1,31.0,152.1,11.2,44.76,86.03,9.2,5,55.0,48
+ByteBite,Fintech,Lending,Bengaluru,2021,4,Series A,104.8,118.0,17.7,723,6.2,-1.6,59.4,35.3,24.84,8.2,4.48,15,89.2,32
+TrustShield,Fintech,BNPL,Noida,2014,11,Growth,30.3,39.9,71.4,695,4.2,64.2,161.5,33.0,42.54,86.74,14.2,27,91.2,55
+UpskillPro,EV,Battery Tech,Chennai,2018,7,Series C,190.2,58.5,99.8,222,3.6,68.1,10.2,29.5,37.86,25.94,3.94,15,73.9,68
+DocAI,Fintech,Payments,Noida,2019,6,Series A,41.9,30.4,10.1,295,6.6,59.2,84.5,16.3,37.71,78.9,3.56,38,43.7,46
+FreightX,Logistics,Last Mile,Hyderabad,2021,4,Seed,23.7,9.8,103.5,234,14.9,37.9,94.7,32.7,29.76,38.42,1.41,35,57.8,34
+GrowthAI,Logistics,Cold Chain,Delhi,2018,7,Series A,7.1,12.7,55.7,162,6.9,-28.7,161.0,34.3,11.12,8.33,13.64,24,47.2,22
+WalletAI,Fintech,BNPL,Hyderabad,2016,9,Series C,6.0,4.7,89.1,138,11.2,-24.0,174.9,35.0,28.18,47.21,10.91,27,87.8,72
+EduSync,Logistics,Cold Chain,Delhi,2015,10,Series A,101.1,177.1,28.8,189,7.0,-49.8,123.7,31.3,12.45,55.89,4.59,24,72.0,72
+WellTrack,Edtech,Corporate Training,Noida,2012,13,Series B,31.7,38.0,40.7,21,10.5,61.8,158.2,11.4,24.08,10.58,4.92,34,41.0,73
+StyleAI,Foodtech,AgriTech,Hyderabad,2021,4,Seed,58.9,95.6,17.2,112,12.4,-3.5,71.2,44.2,10.12,69.35,16.45,13,46.8,78
+RideCharge,Foodtech,Food Delivery,Chennai,2018,7,Seed,8.7,14.8,114.1,578,9.5,51.8,126.3,27.0,33.07,55.34,11.99,24,64.9,22
+FlowBase,EV,EV Two-Wheeler,Hyderabad,2013,12,Series A,15.8,23.5,81.8,144,7.6,22.2,146.6,18.0,49.82,97.48,13.04,12,62.2,48
+KitchenX,Foodtech,Restaurant Tech,Gurugram,2018,7,Seed,202.2,281.2,91.2,219,6.5,-5.0,80.5,44.6,2.1,86.72,11.62,38,41.6,53
+PaySafe,Logistics,Cross Border,Mumbai,2015,10,Series A,7.7,9.2,110.2,137,3.3,31.0,130.0,35.7,6.67,71.61,18.19,25,74.8,33
+SkillAI,Foodtech,Cloud Kitchen,Gurugram,2016,9,Growth,48.0,21.4,53.4,117,9.0,25.3,135.9,13.3,32.64,31.28,8.04,37,76.1,20
+HealthSync,Logistics,Cross Border,Noida,2018,7,Series C,8.4,3.4,27.0,186,7.9,-6.2,167.5,25.1,12.51,61.75,14.16,22,60.9,62
+RouteAI,SaaS,Marketing Tech,Pune,2016,9,Series C,127.6,123.7,104.8,645,8.5,20.2,16.5,44.5,6.24,23.19,1.13,3,46.7,25
+InsightX,SaaS,CRM,Delhi,2012,13,Growth,26.9,14.1,118.5,246,14.5,-49.4,190.8,32.4,43.41,45.53,10.36,25,76.7,39
+CoinFlow,EV,EV Fleet,Chennai,2015,10,Growth,17.7,23.2,116.6,466,1.6,37.4,94.3,40.4,8.94,69.29,16.78,28,60.6,49
+StudyAI,Edtech,Test Prep,Bengaluru,2019,6,Series A,85.5,40.2,97.1,406,13.8,28.1,188.8,38.9,33.38,57.76,7.04,4,95.0,25
+ClinicX,EV,EV Two-Wheeler,Bengaluru,2020,5,Seed,80.3,92.4,90.7,373,13.2,2.5,72.1,33.4,40.41,76.25,15.98,21,87.8,20
+ShopAI,Logistics,Warehousing,Chennai,2016,9,Seed,14.7,13.1,85.9,57,6.0,8.3,55.1,23.1,11.44,7.41,12.11,16,74.1,65
+VoltX,Fintech,Lending,Pune,2019,6,Series A,2.7,0.9,46.2,2418,5.8,1.8,120.2,28.7,30.43,76.51,16.28,23,50.8,74
+WorkAI,Logistics,Cold Chain,Pune,2020,5,Series C,13.1,7.8,61.7,1130,3.1,-28.4,127.3,28.3,33.54,92.97,10.69,10,57.1,55
+FoodSync,Foodtech,Cloud Kitchen,Mumbai,2015,10,Seed,60.9,29.5,104.3,910,12.0,-26.0,66.1,37.8,9.34,91.78,8.55,9,84.9,63
+SecureX,Logistics,Last Mile,Mumbai,2018,7,Series B,73.5,87.5,96.9,2322,9.8,-27.3,78.5,41.7,38.52,55.71,5.19,6,55.1,38
+TalentAI,Ecommerce,Electronics,Gurugram,2020,5,Series A,72.8,71.2,73.7,111,2.7,45.8,173.9,17.6,4.88,2.46,12.88,30,51.3,30
+CareX,Edtech,K12,Chennai,2020,5,Growth,79.6,40.2,85.9,244,6.2,5.7,146.3,34.2,49.56,12.93,2.17,28,58.5,51
+LinkFast,EV,EV Two-Wheeler,Chennai,2019,6,Series C,212.1,191.3,49.1,1360,5.3,30.2,94.1,39.1,33.51,7.09,12.84,10,88.4,69
+MetricsAI,Healthtech,Diagnostics,Hyderabad,2021,4,Growth,238.2,426.7,82.1,72,8.5,45.0,98.4,12.1,28.16,95.77,3.59,33,81.5,74
+MoneyAI,Logistics,Warehousing,Chennai,2018,7,Seed,22.6,29.3,97.1,842,13.9,-19.5,85.9,15.3,49.62,92.71,10.85,32,68.7,25
+LearnX,Foodtech,Cloud Kitchen,Noida,2016,9,Seed,99.9,136.2,12.0,438,4.7,-15.8,78.4,13.1,46.85,55.42,6.18,25,91.8,37
+WellnessX,EV,EV Charging,Delhi,2017,8,Series B,5.0,5.3,52.5,827,8.2,31.6,138.1,28.6,36.1,14.21,4.32,16,44.5,40
+CartAI,Healthtech,Diagnostics,Delhi,2014,11,Series A,56.5,71.3,100.1,242,2.2,62.1,185.3,27.0,30.35,76.5,3.58,5,92.4,25

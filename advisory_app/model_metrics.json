@@ -1,0 +1,31 @@
+{
+  "test_accuracy": 0.8916,
+  "weighted_f1": 0.8919,
+  "cv_f1_mean": 0.8984,
+  "cv_f1_std": 0.0149,
+  "train_test_split": "80/20",
+  "train_size": 328,
+  "test_size": 83,
+  "smote": "applied to training set only (k_neighbors=2)",
+  "generated_at": "2026-05-02T14:45:56.403797",
+  "per_class": {
+    "Avoid": {
+      "precision": 0.8611,
+      "recall": 0.9118,
+      "f1": 0.8857,
+      "support": 34
+    },
+    "Hold": {
+      "precision": 0.8919,
+      "recall": 0.8684,
+      "f1": 0.88,
+      "support": 38
+    },
+    "Invest": {
+      "precision": 1.0,
+      "recall": 0.9091,
+      "f1": 0.9524,
+      "support": 11
+    }
+  }
+}
