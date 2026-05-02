@@ -258,31 +258,7 @@ def render_visualizer():
     if st.session_state.last_files:
         _render_chart(st.session_state.last_files)
 
-        with st.expander("Technical details", expanded=False):
-            v    = st.session_state.version
-            tool = st.session_state.last_tool
-            tool_display = {
-                "planner_tool": "PLANNER",
-                "patch_tool":   "PATCH",
-                "codegen_tool": "CODEGEN",
-            }
-            badge_text = tool_display.get(tool, tool or "—")
-
-            raw_path = st.session_state.save_path or ""
-            short_path = "/".join(raw_path.replace("\\", "/").split("/")[-2:]) if raw_path else "—"
-
-            st.markdown(
-                f"<div style='font-family:Outfit,sans-serif; font-size:0.85rem; color:{text_sec};'>"
-                f"<span style='background:{elevated}; border:1px solid {border}; border-radius:999px; "
-                f"padding:3px 12px; font-size:11px; color:{accent}; font-weight:500;'>{badge_text}</span>"
-                f"&nbsp;&nbsp;<b>v{v}</b>"
-                f"&nbsp;&nbsp;<code style='font-size:12px; color:{text_muted};'>{short_path}</code>"
-                f"</div>",
-                unsafe_allow_html=True,
-            )
-            if st.session_state.patch_llm_debug and st.session_state.last_tool == "patch_tool":
-                st.markdown("<b style='font-size:0.85rem;'>Patch diff:</b>", unsafe_allow_html=True)
-                st.code(st.session_state.patch_llm_debug, language="diff")
+        pass
 
     elif generate and (not file or not query):
         st.info("Please upload a CSV file and enter a chart description.")

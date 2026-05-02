@@ -81,22 +81,50 @@ If a property you want to use is NOT in this reference:
         system_prompt = base_prompt
         print(f"[WARN] No API context available for chart type: '{chart_type}'")
 
+    # ── Inject binding-specific template so llama doesn't hallucinate data access
+    try:
+        parsed_schema = json.loads(schema)
+        binding = parsed_schema.get("binding", "")
+        chart = parsed_schema.get("highcharts_type", "")
+    except Exception:
+        binding = ""
+        chart = ""
+
+    if binding == "category_series":
+        binding_hint = """
+CRITICAL — binding is category_series. You MUST use EXACTLY this pattern, no exceptions:
+
+xAxis: { categories: DATA.categories }
+series: [{ name: '<title>', data: DATA.values }]
+
+DO NOT use numeric indices. DO NOT use DATA[0], DATA[1]. DO NOT hardcode values.
+xAxis.categories MUST be DATA.categories. series[0].data MUST be DATA.values.
+"""
+    elif binding == "named_points":
+        binding_hint = """
+CRITICAL — binding is named_points. You MUST use EXACTLY this pattern:
+
+series: [{ name: '<title>', data: DATA }]
+
+DATA is already an array of {name, y} objects. Do not transform it.
+"""
+    elif binding == "datetime_series":
+        binding_hint = """
+CRITICAL — binding is datetime_series. You MUST use EXACTLY this pattern:
+
+xAxis: { type: 'datetime' }
+series: [{ name: '<title>', data: DATA }]
+
+DATA is already [[timestamp_ms, value], ...]. Do not transform it.
+"""
+    else:
+        binding_hint = ""
+
     # ── User prompt
     user_prompt = f"""
 Compile visualization from schema.
-
-IMPORTANT DATA BINDING RULES:
-
-If chart type is:
-- pie, funnel, pyramid → series.data = DATA
-- bar, column, line, area → categories = DATA.categories AND data = DATA.values
-- scatter/bubble → series.data = DATA
-- histogram/bellcurve → use derived baseSeries
-
-Never access DATA.categories or DATA.values unless categorical_numeric.
-
-TITLE RULE: If schema contains a "title" field, use that exact string as the Highcharts
-title.text value. Never use the schema field names or data shape as the chart title.
+{binding_hint}
+TITLE RULE: If schema contains a "title" field, use that exact string as the Highcharts title.text value.
 
 RETURN FILES ONLY.
 
@@ -107,7 +135,7 @@ Schema:
     # ── Single LLM call (LangGraph handles retry)
     response = client.chat.completions.create(
         model=MODEL,
-        temperature=0.1,
+        temperature=0,
         max_tokens=6000,
         timeout=30,
         messages=[
