@@ -109,10 +109,10 @@ def parse_llm_output(text: str) -> Dict[str, str]:
     # Try strategies in order
     files = parse_delimiter_blocks(text)
 
-    if len(files) < 3:
+    if not REQUIRED_FILES.issubset(files.keys()):
         files.update(parse_markdown_blocks(text))
 
-    if len(files) < 3:
+    if not REQUIRED_FILES.issubset(files.keys()):
         files.update(parse_heuristic(text))
 
     
